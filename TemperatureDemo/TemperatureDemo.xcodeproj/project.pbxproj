@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2A25F711AA03CEF002E8E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F701AA03CEF002E8E78 /* main.m */; };
+		E2A25F741AA03CEF002E8E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F731AA03CEF002E8E78 /* AppDelegate.m */; };
+		E2A25F771AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F751AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld */; };
+		E2A25F7A1AA03CEF002E8E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F791AA03CEF002E8E78 /* ViewController.m */; };
+		E2A25F7D1AA03CEF002E8E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A25F7B1AA03CEF002E8E78 /* Main.storyboard */; };
+		E2A25F7F1AA03CEF002E8E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A25F7E1AA03CEF002E8E78 /* Images.xcassets */; };
+		E2A25F821AA03CEF002E8E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A25F801AA03CEF002E8E78 /* LaunchScreen.xib */; };
+		E2A25F8E1AA03CF0002E8E78 /* TemperatureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F8D1AA03CF0002E8E78 /* TemperatureDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2A25F881AA03CEF002E8E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A25F631AA03CEF002E8E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2A25F6A1AA03CEF002E8E78;
+			remoteInfo = TemperatureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2A25F6B1AA03CEF002E8E78 /* TemperatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A25F6F1AA03CEF002E8E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A25F701AA03CEF002E8E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2A25F721AA03CEF002E8E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2A25F731AA03CEF002E8E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2A25F761AA03CEF002E8E78 /* TemperatureDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TemperatureDemo.xcdatamodel; sourceTree = "<group>"; };
+		E2A25F781AA03CEF002E8E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2A25F791AA03CEF002E8E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2A25F7C1AA03CEF002E8E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2A25F7E1AA03CEF002E8E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2A25F811AA03CEF002E8E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E2A25F871AA03CEF002E8E78 /* TemperatureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A25F8C1AA03CF0002E8E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A25F8D1AA03CF0002E8E78 /* TemperatureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2A25F681AA03CEF002E8E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A25F841AA03CEF002E8E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2A25F621AA03CEF002E8E78 = {
+			isa = PBXGroup;
+			children = (
+				E2A25F6D1AA03CEF002E8E78 /* TemperatureDemo */,
+				E2A25F8A1AA03CEF002E8E78 /* TemperatureDemoTests */,
+				E2A25F6C1AA03CEF002E8E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2A25F6C1AA03CEF002E8E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25F6B1AA03CEF002E8E78 /* TemperatureDemo.app */,
+				E2A25F871AA03CEF002E8E78 /* TemperatureDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A25F6D1AA03CEF002E8E78 /* TemperatureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25F721AA03CEF002E8E78 /* AppDelegate.h */,
+				E2A25F731AA03CEF002E8E78 /* AppDelegate.m */,
+				E2A25F781AA03CEF002E8E78 /* ViewController.h */,
+				E2A25F791AA03CEF002E8E78 /* ViewController.m */,
+				E2A25F7B1AA03CEF002E8E78 /* Main.storyboard */,
+				E2A25F7E1AA03CEF002E8E78 /* Images.xcassets */,
+				E2A25F801AA03CEF002E8E78 /* LaunchScreen.xib */,
+				E2A25F751AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld */,
+				E2A25F6E1AA03CEF002E8E78 /* Supporting Files */,
+			);
+			path = TemperatureDemo;
+			sourceTree = "<group>";
+		};
+		E2A25F6E1AA03CEF002E8E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25F6F1AA03CEF002E8E78 /* Info.plist */,
+				E2A25F701AA03CEF002E8E78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2A25F8A1AA03CEF002E8E78 /* TemperatureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25F8D1AA03CF0002E8E78 /* TemperatureDemoTests.m */,
+				E2A25F8B1AA03CF0002E8E78 /* Supporting Files */,
+			);
+			path = TemperatureDemoTests;
+			sourceTree = "<group>";
+		};
+		E2A25F8B1AA03CF0002E8E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25F8C1AA03CF0002E8E78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2A25F6A1AA03CEF002E8E78 /* TemperatureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A25F911AA03CF0002E8E78 /* Build configuration list for PBXNativeTarget "TemperatureDemo" */;
+			buildPhases = (
+				E2A25F671AA03CEF002E8E78 /* Sources */,
+				E2A25F681AA03CEF002E8E78 /* Frameworks */,
+				E2A25F691AA03CEF002E8E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureDemo;
+			productName = TemperatureDemo;
+			productReference = E2A25F6B1AA03CEF002E8E78 /* TemperatureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2A25F861AA03CEF002E8E78 /* TemperatureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A25F941AA03CF0002E8E78 /* Build configuration list for PBXNativeTarget "TemperatureDemoTests" */;
+			buildPhases = (
+				E2A25F831AA03CEF002E8E78 /* Sources */,
+				E2A25F841AA03CEF002E8E78 /* Frameworks */,
+				E2A25F851AA03CEF002E8E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2A25F891AA03CEF002E8E78 /* PBXTargetDependency */,
+			);
+			name = TemperatureDemoTests;
+			productName = TemperatureDemoTests;
+			productReference = E2A25F871AA03CEF002E8E78 /* TemperatureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A25F631AA03CEF002E8E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "April Brother";
+				TargetAttributes = {
+					E2A25F6A1AA03CEF002E8E78 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E2A25F861AA03CEF002E8E78 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E2A25F6A1AA03CEF002E8E78;
+					};
+				};
+			};
+			buildConfigurationList = E2A25F661AA03CEF002E8E78 /* Build configuration list for PBXProject "TemperatureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2A25F621AA03CEF002E8E78;
+			productRefGroup = E2A25F6C1AA03CEF002E8E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A25F6A1AA03CEF002E8E78 /* TemperatureDemo */,
+				E2A25F861AA03CEF002E8E78 /* TemperatureDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2A25F691AA03CEF002E8E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A25F7D1AA03CEF002E8E78 /* Main.storyboard in Resources */,
+				E2A25F821AA03CEF002E8E78 /* LaunchScreen.xib in Resources */,
+				E2A25F7F1AA03CEF002E8E78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A25F851AA03CEF002E8E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2A25F671AA03CEF002E8E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A25F741AA03CEF002E8E78 /* AppDelegate.m in Sources */,
+				E2A25F771AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld in Sources */,
+				E2A25F7A1AA03CEF002E8E78 /* ViewController.m in Sources */,
+				E2A25F711AA03CEF002E8E78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A25F831AA03CEF002E8E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A25F8E1AA03CF0002E8E78 /* TemperatureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2A25F891AA03CEF002E8E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2A25F6A1AA03CEF002E8E78 /* TemperatureDemo */;
+			targetProxy = E2A25F881AA03CEF002E8E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2A25F7B1AA03CEF002E8E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A25F7C1AA03CEF002E8E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2A25F801AA03CEF002E8E78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A25F811AA03CEF002E8E78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2A25F8F1AA03CF0002E8E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2A25F901AA03CF0002E8E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2A25F921AA03CF0002E8E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TemperatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2A25F931AA03CF0002E8E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TemperatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2A25F951AA03CF0002E8E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TemperatureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureDemo.app/TemperatureDemo";
+			};
+			name = Debug;
+		};
+		E2A25F961AA03CF0002E8E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TemperatureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureDemo.app/TemperatureDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2A25F661AA03CEF002E8E78 /* Build configuration list for PBXProject "TemperatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A25F8F1AA03CF0002E8E78 /* Debug */,
+				E2A25F901AA03CF0002E8E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A25F911AA03CF0002E8E78 /* Build configuration list for PBXNativeTarget "TemperatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A25F921AA03CF0002E8E78 /* Debug */,
+				E2A25F931AA03CF0002E8E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2A25F941AA03CF0002E8E78 /* Build configuration list for PBXNativeTarget "TemperatureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A25F951AA03CF0002E8E78 /* Debug */,
+				E2A25F961AA03CF0002E8E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2A25F751AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2A25F761AA03CEF002E8E78 /* TemperatureDemo.xcdatamodel */,
+			);
+			currentVersion = E2A25F761AA03CEF002E8E78 /* TemperatureDemo.xcdatamodel */;
+			path = TemperatureDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2A25F631AA03CEF002E8E78 /* Project object */;
+}
