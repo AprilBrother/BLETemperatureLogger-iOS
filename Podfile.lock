@@ -1,0 +1,10 @@
+PODS:
+  - AprilSDK (1.2.4)
+
+DEPENDENCIES:
+  - AprilSDK (~> 1.2.4)
+
+SPEC CHECKSUMS:
+  AprilSDK: 26ad914ce0c3daa39bf028823a5053ece7dad35f
+
+COCOAPODS: 0.35.0.rc2
