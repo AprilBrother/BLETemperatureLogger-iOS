@@ -16,6 +16,9 @@
 		E2A25F7F1AA03CEF002E8E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A25F7E1AA03CEF002E8E78 /* Images.xcassets */; };
 		E2A25F821AA03CEF002E8E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A25F801AA03CEF002E8E78 /* LaunchScreen.xib */; };
 		E2A25F8E1AA03CF0002E8E78 /* TemperatureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F8D1AA03CF0002E8E78 /* TemperatureDemoTests.m */; };
+		E2A25F991AA0577A002E8E78 /* TDDeviceManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F981AA0577A002E8E78 /* TDDeviceManage.m */; };
+		E2A25F9C1AA06026002E8E78 /* TDBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F9B1AA06026002E8E78 /* TDBeacon.m */; };
+		E2A25F9F1AA15FC1002E8E78 /* TDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A25F9E1AA15FC1002E8E78 /* TDTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,12 @@
 		E2A25F871AA03CEF002E8E78 /* TemperatureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A25F8C1AA03CF0002E8E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A25F8D1AA03CF0002E8E78 /* TemperatureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureDemoTests.m; sourceTree = "<group>"; };
+		E2A25F971AA0577A002E8E78 /* TDDeviceManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDeviceManage.h; sourceTree = "<group>"; };
+		E2A25F981AA0577A002E8E78 /* TDDeviceManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDeviceManage.m; sourceTree = "<group>"; };
+		E2A25F9A1AA06026002E8E78 /* TDBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBeacon.h; sourceTree = "<group>"; };
+		E2A25F9B1AA06026002E8E78 /* TDBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBeacon.m; sourceTree = "<group>"; };
+		E2A25F9D1AA15FC1002E8E78 /* TDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTableViewCell.h; sourceTree = "<group>"; };
+		E2A25F9E1AA15FC1002E8E78 /* TDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,12 @@
 				E2A25F731AA03CEF002E8E78 /* AppDelegate.m */,
 				E2A25F781AA03CEF002E8E78 /* ViewController.h */,
 				E2A25F791AA03CEF002E8E78 /* ViewController.m */,
+				E2A25F9D1AA15FC1002E8E78 /* TDTableViewCell.h */,
+				E2A25F9E1AA15FC1002E8E78 /* TDTableViewCell.m */,
+				E2A25F971AA0577A002E8E78 /* TDDeviceManage.h */,
+				E2A25F981AA0577A002E8E78 /* TDDeviceManage.m */,
+				E2A25F9A1AA06026002E8E78 /* TDBeacon.h */,
+				E2A25F9B1AA06026002E8E78 /* TDBeacon.m */,
 				E2A25F7B1AA03CEF002E8E78 /* Main.storyboard */,
 				E2A25F7E1AA03CEF002E8E78 /* Images.xcassets */,
 				E2A25F801AA03CEF002E8E78 /* LaunchScreen.xib */,
@@ -197,6 +212,11 @@
 				TargetAttributes = {
 					E2A25F6A1AA03CEF002E8E78 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					E2A25F861AA03CEF002E8E78 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -282,8 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A25F741AA03CEF002E8E78 /* AppDelegate.m in Sources */,
+				E2A25F9F1AA15FC1002E8E78 /* TDTableViewCell.m in Sources */,
+				E2A25F9C1AA06026002E8E78 /* TDBeacon.m in Sources */,
 				E2A25F771AA03CEF002E8E78 /* TemperatureDemo.xcdatamodeld in Sources */,
 				E2A25F7A1AA03CEF002E8E78 /* ViewController.m in Sources */,
+				E2A25F991AA0577A002E8E78 /* TDDeviceManage.m in Sources */,
 				E2A25F711AA03CEF002E8E78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
