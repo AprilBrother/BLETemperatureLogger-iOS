@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.deviceManage = [[TDDeviceManage alloc] init];
     self.deviceManage.delegate = self;
-    [self.deviceManage startRangeUUID:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"];
+    [self.deviceManage startRangeUUID:@"06742A69-4C2C-4359-BBFE-122D05B6DCBF"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,8 +53,8 @@
     cell.uuidLabel.text = [NSString stringWithFormat:@"UUID:%@",beacon.beacon.proximityUUID.UUIDString];
     cell.majorLabel.text = [NSString stringWithFormat:@"Major:%@",beacon.beacon.major];
     cell.minorLabel.text = [NSString stringWithFormat:@"Minor:%@",beacon.beacon.minor];
-    cell.tempLabel.text = [NSString stringWithFormat:@"Temperature:%ld",(long)beacon.temperature];
-    cell.humidityLabel.text = [NSString stringWithFormat:@"Humidity:%ld",(long)beacon.humidity];
+    cell.tempLabel.text = [NSString stringWithFormat:@"%ld",(long)beacon.temperature];
+    cell.humidityLabel.text = [NSString stringWithFormat:@"%ld",(long)beacon.humidity];
     return cell;
 }
 
