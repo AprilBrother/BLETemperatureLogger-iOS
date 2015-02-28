@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="456" y="-221.25"/>
         </scene>
-        <!--View Controller-->
+        <!--温湿度计-->
         <scene sceneID="rsw-3h-Mhd">
             <objects>
                 <tableViewController id="o06-Wy-IMG" customClass="ViewController" sceneMemberID="viewController">
@@ -130,7 +130,7 @@
                             <outlet property="delegate" destination="o06-Wy-IMG" id="fpK-i1-NxT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="aaL-gU-MwZ"/>
+                    <navigationItem key="navigationItem" title="温湿度计" id="aaL-gU-MwZ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVy-fl-bPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
